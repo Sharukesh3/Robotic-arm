@@ -24,3 +24,6 @@ Elbow Motor: GPIO Pin 25
 Wrist roll Motor: GPIO Pin 33
 Wristpitch Motor: GPIO Pin 32
 Grip Motor: GPIO Pin 14
+
+for the circuit connect all the ground cables of the servos to a common cable and do the same with the power cable 
+connect this to a 5volt 2 amp power supply.
