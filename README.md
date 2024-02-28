@@ -16,3 +16,11 @@ The code additionally configures the servo motors' initial positions, initialize
 In the loop function, WebSocket clients are cleaned up to maintain a responsive system. If the system is in playback mode (playRecordedSteps is true), the recorded steps are played back, replicating the previously recorded movements.
 
 Overall, this code provides a robust and interactive platform for controlling a robotic arm, integrating web-based control, real-time updates, and the capability to record and playback complex movement sequences.
+
+connect the motor according to the below 
+Base Motor: GPIO Pin 27
+Shoulder Motor: GPIO Pin 26
+Elbow Motor: GPIO Pin 25
+Wrist roll Motor: GPIO Pin 33
+Wristpitch Motor: GPIO Pin 32
+Grip Motor: GPIO Pin 14
